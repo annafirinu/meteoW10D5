@@ -35,7 +35,7 @@ class MeteoCagliari extends Component {
 
   render() {
     return (
-      <div className="bg-custom p-3 me-5 mt-5 text-black text-center">
+      <div className="bg-custom p-3 me-5 mt-5 text-black text-center w-100">
         <div className="text-center m-3">
           <h3>{this.state.previsioni.name}</h3>
 

@@ -9,7 +9,7 @@ class SingleCard extends Component {
 
   render() {
     return (
-      <Col xs={12} md={6} className="m-2">
+      <Col xs={12} md={6} className="m-4">
         <Card className="d-flex justify-content-center">
           <img
             variant="top"

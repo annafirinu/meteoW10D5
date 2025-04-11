@@ -14,7 +14,7 @@ import MeteoTorino from "./MeteoTorino";
 class NewCard extends Component {
   render() {
     return (
-      <Row className=" d-flex  justify-content-center mb-2 me-2 ms-2 mt-2">
+      <Row className=" d-flex justify-content-center mb-2  mt-2">
         <SingleCard
           città="Roma"
           img="https://media.istockphoto.com/id/539115110/it/foto/colosseo-di-roma-e-sole-mattutino-italia.jpg?s=612x612&w=0&k=20&c=ngbBMGVEkJxHsnt4SN7ZuncEnRenq2tFI8V0-zCg4pw="
