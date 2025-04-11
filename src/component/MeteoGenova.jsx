@@ -19,9 +19,9 @@ class MeteoGenova extends Component {
         }
       })
       .then((data) => {
-        console.log("DATA", data); //array delle recensioni
+        console.log("DATA", data);
         this.setState({
-          previsioni: data, //metto le recensioni nello stato
+          previsioni: data,
         });
       })
       .catch((err) => {
@@ -35,7 +35,7 @@ class MeteoGenova extends Component {
 
   render() {
     return (
-      <div className="bg-custom p-3 me-5 mt-5 text-white text-center">
+      <div className="bg-custom p-3 me-5 mt-5 text-black text-center">
         <div className="text-center m-3">
           <h3>{this.state.previsioni.name}</h3>
 

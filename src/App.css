@@ -1,11 +1,11 @@
 .card-img-top {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
 }
 
 .bg-custom {
-  background-image: url("https://www.ispazio.net/wp-content/uploads/2022/06/iOS-16-Weather-Wallpaper-1.jpg");
+  background-image: url("https://i.pinimg.com/1200x/ae/f6/2a/aef62a5b0be1ac467508956f421c7225.jpg");
   background-size: cover; /* Assicura che l'immagine copra l'intero div */
   background-position: center; /* Centra l'immagine nel div */
   background-repeat: no-repeat; /* Evita la ripetizione dell'immagine */
@@ -17,3 +17,5 @@
   height: 130px;
   width: 130px;
 }
+
+/*background-image: url("https://www.ispazio.net/wp-content/uploads/2022/06/iOS-16-Weather-Wallpaper-1.jpg");*/

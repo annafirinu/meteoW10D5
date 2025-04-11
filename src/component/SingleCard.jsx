@@ -10,7 +10,7 @@ class SingleCard extends Component {
   render() {
     return (
       <Col xs={12} md={6} className="m-2">
-        <Card className="d-flex justify-content-center align-content-center">
+        <Card className="d-flex justify-content-center">
           <img
             variant="top"
             src={this.props.img}
@@ -31,9 +31,7 @@ class SingleCard extends Component {
             >
               Meteo
             </Button>
-            <div className=" my-auto">
-              {this.state.selected === true && this.props.meteo}
-            </div>
+            <div>{this.state.selected === true && this.props.meteo}</div>
           </Card.Body>
         </Card>
       </Col>
